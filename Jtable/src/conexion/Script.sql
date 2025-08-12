@@ -1,6 +1,6 @@
-CREATE DATABASE persona;
+CREATE DATABASE empleadosdb;
 
-USE persona;
+USE empleadosdb;
 
 CREATE TABLE trabajadores (
     nombre VARCHAR(100) NOT NULL,
@@ -12,3 +12,4 @@ INSERT INTO trabajadores (nombre, documento, cargo, sueldo)
 VALUES
 ('Juan Pérez', '123456789', 'Gerente', 3500000),
 ('María López', '987654321', 'Analista', 2500000);
+
